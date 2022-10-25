@@ -8,17 +8,17 @@ include <stdio.h>
 
 int main(void)
 {
+	char c;	
 	int i;
-	float f;
 	long l;
-	short s;
-	char c;
+	long long ll;
+	float f;
 
-	printf("Size of an integer: %lu bytes\n", (unsigned long) sizeof(i));
-	printf("Size of a float: %lu bytes\n", (unsigned long) sizeof(f));
-	printf("Size of an long: %lu bytes\n", (unsigned long) sizeof(l));
-	printf("Size of an short: %lu bytes\n", (unsigned long) sizeof(s));
-	printf("Size of a char: %lu bytes\n", (unsigned long) sizeof(c));
+	printf("Size of an char: %lu byte(s)\n", (unsigned long) sizeof(c));
+	printf("Size of a int: %lu byte(s)\n", (unsigned long) sizeof(i));
+	printf("Size of an long int: %lu byte(s)\n", (unsigned long) sizeof(l));
+	printf("Size of an long long int: %lu byte(s)\n", (unsigned long) sizeof(ll));
+	printf("Size of a float: %lu byte(s)\n", (unsigned long) sizeof(f));
 	
 	
 	return(0);
