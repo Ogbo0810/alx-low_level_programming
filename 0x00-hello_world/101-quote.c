@@ -1,10 +1,9 @@
 #include <stdio.h>
-#include <string.h>
 #include <unistd.h>
 /**
- * main - main block
+ * main - starting point of file execution
  *
- * Return: 1
+ * Return: 1 (one)
  */
 
 int main(void)
