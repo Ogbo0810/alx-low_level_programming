@@ -24,7 +24,7 @@ int main(void)
 	while (hex <= 'f')
 	{
 		putchar(hex);
-		hex++
+		hex++;
 	}
 
 	putchar('\n');
