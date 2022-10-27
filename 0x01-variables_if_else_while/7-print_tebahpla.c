@@ -12,7 +12,7 @@ int main(void)
 {
 	char alpha;
 
-i	alpha = 'z';
+	alpha = 'z';
 
 	while (alpha >= 'a')
 	{
