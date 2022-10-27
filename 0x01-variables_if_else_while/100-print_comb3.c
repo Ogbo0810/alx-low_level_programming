@@ -8,18 +8,18 @@
 
 int main(void)
 {
-	int d, p;
+	int f, s;
 
-	for (d = '0'; d < '9'; d++)
+	for (f = '0'; d < '9'; f++)
 	{
-		for (p = d + 1; p <= '9'; p++)
+		for (s = f + 1; s <= '9'; s++)
 		{
-			if (p != d)
+			if (s != f)
 			{
-				putchar(d);
-				putchar(p);
+				putchar(f);
+				putchar(s);
 
-				if (d == '8' && p == '9')
+				if (f == '8' && s == '9')
 					continue;
 
 				putchar(',');
