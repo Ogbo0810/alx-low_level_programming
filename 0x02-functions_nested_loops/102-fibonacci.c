@@ -25,5 +25,6 @@ int main(void)
 		c = n;
 		n = sum;
 	}
+	printf("\n");
 	return (0);
 }
