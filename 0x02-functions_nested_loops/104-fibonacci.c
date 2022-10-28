@@ -33,7 +33,7 @@ int main(void)
 		else
 		{
 			h2 = sum;
-			c = n
+			c = n;
 			n = h2;
 			printf("%lu", n);
 		}
