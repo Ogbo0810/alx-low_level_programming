@@ -19,11 +19,9 @@ void times_table(void)
 			_putchar(((m1 * m2) / 10) + '0');
 			_putchar(((m1 * m2) % 10) + '0');
 			}
-			else
-			{
-				 _putchar(' ');
-				_putchar((m1 * m2) + '0');
-			}
+
+			_putchar(' ');
+			_putchar((m1 * m2) + '0');
 
 			if (m2 < 9)
 			{
