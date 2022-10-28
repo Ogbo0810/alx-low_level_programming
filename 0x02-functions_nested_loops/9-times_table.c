@@ -21,6 +21,7 @@ void times_table(void)
 			}
 			else
 			{
+				 _putchar(' ');
 				_putchar((m1 * m2) + '0');
 			}
 
