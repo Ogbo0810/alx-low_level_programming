@@ -9,7 +9,7 @@
  */
 int _islower(int c)
 {
-	char lower;
+	int lower;
 	int result;
 
 	for (lower = 'a'; lower <= 'z'; lower++)
@@ -23,5 +23,5 @@ int _islower(int c)
 			result = 0;
 		}
 	}
-	return result;
+	return (result);
 }
