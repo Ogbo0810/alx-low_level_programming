@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	unsigned int c, n, sum, i;
+	unsigned long int c, n, sum, i;
 
 	c = 1;
 	n = 2;
@@ -17,7 +17,7 @@ int main(void)
 	for (i = 3; i <= 50; i++)
 	{
 		sum = (c + n);
-		printf("%u", sum);
+		printf("%lu", sum);
 		if (i < 50)
 		{
 			printf(", ");
