@@ -12,7 +12,7 @@ int main(void)
 	c = 1;
 	n = 2;
 
-	printf("%d, %d, ", c, n);
+	printf("%lu, %lu, ", c, n);
 
 	for (i = 3; i <= 50; i++)
 	{
