@@ -1,8 +1,7 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
- * natural - Prints the sum of multples of 3 or 5 below 1024
+ * main - starting point of file execution
  *
  * Return: sum of the multiples
  */
