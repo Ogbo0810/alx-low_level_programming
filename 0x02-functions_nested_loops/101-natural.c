@@ -6,7 +6,7 @@
  *
  * Return: sum of the multiples
  */
-int natural(void)
+int main(void)
 {
 	int i, n;
 
