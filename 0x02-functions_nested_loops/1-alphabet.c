@@ -17,6 +17,19 @@ int main(void)
 	}
 	_putchar('\n');
 
-	return (0)
+	return (0);
 }
+
+/**
+ * _putchar - It prints a word.
+ * @c: only operand
+ *
+ * Description: This prints the only arcgument inside it
+ * Return: the parameter
+ */
+int _putchar(char c)
+{
+		return (write(1, &c, 1));
+}
+
 
