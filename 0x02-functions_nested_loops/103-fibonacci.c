@@ -13,8 +13,6 @@ int main(void)
 	n = 2;
 	e_sum = 0;
 
-	printf("%lu, %lu, ", c, n);
-
 	for (i = 3; i <= 50; i++)
 	{
 		sum = (c + n);
@@ -25,6 +23,7 @@ int main(void)
 		c = n;
 		n = sum;
 	}
+	e_sum = e_sum + 2;
 	printf("%lu\n", e_sum);
 	return (0);
 }
