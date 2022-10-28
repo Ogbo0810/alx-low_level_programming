@@ -15,7 +15,17 @@ void times_table(void)
 		for (m2 = 0; m2 <= 9; m2++)
 		{
 			_putchar((m1 * m2) + '0');
+			if ((m1 * m2) > 9)
+			{
+			_putchar(((m1 * m2) / 10) + '0');	
+			_putchar(((m1 * m2) % 10) + '0');
+			}
+			else
+			{
+				_putchar((m1 * m2) + '0');
+			}
 			_putchar(',');
+			_putchar(' ');
 		}
 		_putchar('\n');
 	}
