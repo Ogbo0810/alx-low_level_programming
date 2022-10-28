@@ -1,5 +1,5 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
  * natural - Prints the sum of multples of 3 or 5 below 1024
@@ -9,6 +9,8 @@
 int natural(void)
 {
 	int i, n;
+
+	n = 0;
 
 	for (i = 1; i < 1024; i++)
 	{
