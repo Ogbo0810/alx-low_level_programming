@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	unsigned long int i, n
+	unsigned long int i, n;
 
 	n = 612852475143;
 
