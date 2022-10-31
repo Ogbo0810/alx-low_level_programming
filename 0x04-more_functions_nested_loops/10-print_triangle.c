@@ -24,17 +24,14 @@ void print_triangle(int size)
 	{
 		for (i = 1; i <= n; i++)
 		{
-/*			for (j = 1; j <= m; j++)*/
-/*			{*/
-				for (k = 1; k <= (m - u); k++)
-				{
+			for (k = 1; k <= (m - u); k++)
+			{
 				_putchar(' ');
-				}
-				for (p = 1; p <= (m - (m - u)); p++)
-				{
+			}
+			for (p = 1; p <= (m - (m - u)); p++)
+			{
 				_putchar('#');
-				}
-/*			}*/
+			}
 			_putchar('\n');
 			u++;
 		}
