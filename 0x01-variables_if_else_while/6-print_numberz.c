@@ -11,10 +11,10 @@
 int main(void)
 {
 	int n;
-//	int hex;
+/*	int hex;*/
 
 	n = '0';
-//	hex = 'a';
+/*	hex = 'a';*/
 
 	while (n <= '9')
 	{
