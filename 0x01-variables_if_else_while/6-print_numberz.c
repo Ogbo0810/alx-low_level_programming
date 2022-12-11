@@ -11,7 +11,7 @@
 int main(void)
 {
 	int n;
-	char hex;
+	int hex;
 
 	n = '0';
 	hex = 'a';
