@@ -11,22 +11,22 @@
 int main(void)
 {
 	int n;
-	int hex;
+//	int hex;
 
 	n = '0';
-	hex = 'a';
+//	hex = 'a';
 
 	while (n <= '9')
 	{
 		putchar(n);
 		n++;
 	}
-	while (hex <= 'f')
-	{
-		putchar(hex);
-		hex++;
-	}
-
+/**	while (hex <= 'f')
+*	{
+*		putchar(hex);
+*		hex++;
+*	}
+*/
 	putchar('\n');
 	return (0);
 }
