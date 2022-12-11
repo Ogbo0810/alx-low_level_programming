@@ -22,11 +22,11 @@ int main(void)
 		n++;
 	}
 /**	while (hex <= 'f')
-*	{
-*		putchar(hex);
-*		hex++;
-*	}
-*/
+ *	{
+ *		putchar(hex);
+ *		hex++;
+ *	}
+ */
 	putchar('\n');
 	return (0);
 }
